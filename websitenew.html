@@ -5,15 +5,16 @@
 
     <title>Document</title>
     <style>
-        body{
+        body {
             margin: 0%;
             padding: 0%;
         }
+
         /* main */
         .main-container {
             height: 100vh;
             width: 100vw;
-            background-color: rgb(236, 227, 227);
+            background-color: rgb(220, 206, 206);
         }
 
         .header {
@@ -53,7 +54,7 @@
             display: flex;
             align-items: center;
             justify-content: center;
-           
+
         }
 
         img {
@@ -62,19 +63,72 @@
             width: 110px;
 
         }
-        button{
+
+        button {
             width: 230px;
             height: 40px;
-             font-size: 17px;
-             border-radius: 20px;
-             color: white;
-             background-color: tomato;
-             border: none;
+            font-size: 17px;
+            border-radius: 20px;
+            color: white;
+            background-color: tomato;
+            border: none;
         }
-        .search{
-          
+
+        .search {
+
             height: 30px;
             width: 30px;
+        }
+
+        /* first-page-main */
+        .main {
+            height: 70%;
+            width: 100%;
+            background-color: rgb(148, 126, 126);
+            margin-top: 6.8%;
+            display: flex;
+            flex-direction: row;
+        }
+
+        .left-sidebar {
+            height: 100%;
+            width: 60%;
+            background-color: wheat;
+        }
+
+        .right-sidebar {
+            height: 100%;
+            width: 40%;
+            background-color: rgb(137, 114, 73);
+            display: flex;
+            flex-direction: column;
+
+        }
+
+
+
+        img {
+            width: 80%;
+            position: relative;
+        }
+
+        .right-sidebar-1 {
+
+            height: 80%;
+            width: 100%;
+
+        }
+
+        .right-sidebar-2 {
+
+            background-color: rgb(194, 187, 224);
+            height: 20%;
+            width: 100%;
+        }
+
+        b {
+            font-size: 60px;
+            margin-left: 90px;
         }
     </style>
 </head>
@@ -83,8 +137,10 @@
     <!-- main -->
     <div class="main-container">
         <br>
+        <!-- header -->
         <div class="header">
             <div class="sbox"><img src="https://brandcurb.com/wp-content/uploads/brandcurb-logo.webp" alt=""></div>
+            <!-- header --text-->
             <div class="bbox">
                 <div class="name">Website</div>
                 <div class="name">SEO</div>
@@ -93,12 +149,27 @@
                 <div class="name">About us</div>
                 <div class="name">Blog</div>
                 <div class="name">Contact us</div>
-                <div class="name"> <img class="search " src="https://www.iconpacks.net/icons/2/free-search-icon-2903-thumb.png" alt=""></div>
-                <div class="name"><img class="search" src="https://static.thenounproject.com/png/4020631-200.png" alt=""></div>
+                <div class="name"> <img class="search "
+                        src="https://www.iconpacks.net/icons/2/free-search-icon-2903-thumb.png" alt=""></div>
+                <div class="name"><img class="search" src="https://static.thenounproject.com/png/4020631-200.png"
+                        alt=""></div>
             </div>
             <div class="mbox"><button>Book a free Consulation</button></div>
-
-
+        </div>
+        <!-- main -->
+        <div class="main">
+            <!-- left-sodebar -->
+            <div class="left-sidebar"> <br> <b>Complete Web Design <br><b> & Development</b></b></div>
+            <!-- right-sidebar- -->
+            <div class="right-sidebar">
+                <div class="right-sidebar-1">
+                    <p
+                        style="background-image: url(	https://assets.brandcurb.com/img/az/orange-blob.png) ; background-position: center; background-size: cover;">
+                    </p><img src="https://assets.brandcurb.com/img/az/web-design-development.webp" alt=""><img src=""
+                        alt="">
+                </div>
+                <div class="right-sidebar-2"></div>
+            </div>
         </div>
     </div>
 </body>
