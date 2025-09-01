@@ -26,16 +26,17 @@
             position: fixed;
             display: flex;
             flex-direction: row;
+             border: 1px solid rgba(128, 128, 128, 0.309);
         }
 
         .sbox {
-            background-color: rgba(171, 171, 171, 0.327);
+            background-color:#F3F2EC;
             height: 100%;
             width: 13%;
         }
-
+        
         .bbox {
-            background-color: rgba(171, 171, 171, 0.327);
+            background-color:#F3F2EC;
             height: 100%;
             width: 63%;
             display: flex;
@@ -44,12 +45,13 @@
             justify-content: last baseline;
             gap: 40px;
             font-size: 20px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
 
         }
 
         .mbox {
-            background-color: rgba(171, 171, 171, 0.327);
+            background-color:#F3F2EC;
             height: 100%;
             width: 25%;
             display: flex;
@@ -95,6 +97,8 @@
             height: 100%;
             width: 60%;
             background-color: rgb(255, 255, 255);
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            color: #44444E;
         }
 
         .right-sidebar {
@@ -291,12 +295,13 @@
             margin-left: 7%;
 
         }
-
+/* hover in img */
+/* no transform */
         .boxx-1:hover {
 
             height: 540px;
             width: 540px;
-            transform: rotate(360deg);
+            /* transform: rotate(360deg); */
 
         }
 
@@ -454,7 +459,7 @@
         .eight-main {
             height: 70%;
             width: 100%;
-            background: linear-gradient(rgba(255, 208, 216, 0.147), rgb(255, 247, 184));
+            background: linear-gradient(rgba(255, 208, 216, 0.147), rgba(255, 247, 184, 0.238));
             padding-top: 5%;
             padding-left: 10%;
         }
@@ -489,9 +494,9 @@
 
         /* last-box */
         .l-main {
-            height: 90%;
+            height: 70%;
             width: 100%;
-            background-color: thistle;
+            background-color: rgb(255, 255, 255);
             display: flex;
             flex-direction: column;
         }
@@ -509,27 +514,55 @@
             width: 20%;
             background-color: rgb(255, 255, 255);
             margin-left: 3%;
-            
+
         }
 
         .l-center-2 {
-            height: 100%;
+            height: 70%;
             width: 20%;
             background-color: rgb(255, 255, 255);
             margin-left: 50%;
-            
+
         }
 
         .l-center {
 
-            height: 90%;
+            height: 100%;
             width: 100%;
-            background-color: slategray;
+            background-color: rgb(255, 255, 255);
+            display: flex;
+            flex-direction: row;
+            gap: 3%;
         }
-        .dspdsp{
+
+        .l-main-1 {
+            height: 90%;
+            width: 27%;
+            background-color: rgb(255, 255, 255);
+            margin-left: 20%;
+            margin-top: 3%;
+            border-radius: 5%;
+            border: 2px solid rgba(128, 128, 128, 0.296);
+
+        }
+
+        .l-main-2 {
+            height: 80%;
+            width: 26%;
+            background-color: rgb(255, 255, 255);
+            margin-top: 3%;
+            border-radius: 5%;
+            border: 2px solid rgba(128, 128, 128, 0.295);
+
+
+        }
+
+
+
+        .dspdsp {
             height: 30px;
             width: 25px;
-           
+
         }
     </style>
 </head>
@@ -547,9 +580,9 @@
                 <div class="name">SEO</div>
                 <div class="name">Branding</div>
                 <div class="name">PPC</div>
-                <div class="name">About us</div>
+                <div class="name">About </div>
                 <div class="name">Blog</div>
-                <div class="name">Contact us</div>
+                <div class="name">Contact </div>
                 <div class="name"> <img class="search "
                         src="https://www.iconpacks.net/icons/2/free-search-icon-2903-thumb.png" alt=""></div>
                 <div class="name"><img class="search" src="https://static.thenounproject.com/png/4020631-200.png"
@@ -886,14 +919,52 @@
         <!-- last-page -->
         <div class="l-main">
             <div class="l-header">
-                <div class="l-center-1"><h2>📞 Book a Free Consulation</h2></div>
+                <div class="l-center-1">
+                    <h2>📞 Book a Free Consulation</h2>
+                </div>
                 <div class="l-center-2"><img class="dspdsp" src="https://cdn-icons-png.flaticon.com/512/733/733635.png"
                         alt=""><img class="dspdsp" src="https://img.icons8.com/ios11/512/facebook-new.png" alt=""> <img
                         class="dspdsp" src="https://i.pinimg.com/564x/16/05/cd/1605cd36a25c98249cf421b145690992.jpg"
-                        alt=""><img class="dspdsp" src="https://static.vecteezy.com/system/resources/previews/022/187/606/non_2x/map-location-pin-icon-free-png.png" alt="">
-                    <img class="dspdsp" src="https://icons.veryicon.com/png/o/miscellaneous/offerino-icons/instagram-53.png" alt=""></div>
+                        alt=""><img class="dspdsp"
+                        src="https://static.vecteezy.com/system/resources/previews/022/187/606/non_2x/map-location-pin-icon-free-png.png"
+                        alt="">
+                    <img class="dspdsp"
+                        src="https://icons.veryicon.com/png/o/miscellaneous/offerino-icons/instagram-53.png" alt="">
+                </div>
             </div>
-            <div class="l-center"></div>
+            <br><br>
+            <div class="l-center">
+
+                <div class="l-main-1"><img style="margin-top: 15%; margin-left: 10%; "
+                        src="https://assets.brandcurb.com/img/az/brandcurb-logo.webp" alt="">
+                    <p
+                        style="margin-left: 11%; color: #44444E; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
+                        BrandCurb is a unified communications <br> <br>platform that empowers business owners <br> <br>
+                        and promotes
+                        business growth through <br> <br> services that strengthen brand identity <br><br> and
+                        sustainably promote online
+                        presence <br> <br>to increase engagement.</p>
+                        <br>
+                    <h2
+                        style="margin-left: 11%; color: #44444E; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
+                        Secure Payment</h2>
+                </div>
+
+                <div class="l-main-2">
+                    <h2
+                        style="margin-top: 13% ; margin-left: 30%; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; color: #44444E;">
+                        Contact Us</h2>
+                    <br>
+                    <section style="margin-left: 30%;">+ 9370390348</section> <br>
+                    <section
+                        style="margin-left: 30%; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; color: #44444E;">
+                        340 King Street East <br>
+                        Toronto, ON M5A 1K8</section> <br><img style="margin-left: 27% ; height: 40%; width: 40%; "
+                        src="https://www.gstatic.com/partners/badge/images/2023/PartnerBadgeClickable.svg" alt="">
+                </div>
+
+
+            </div>
 
         </div>
     </div>
