@@ -1,9 +1,204 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        .main-container {
+            height: 98vh;
+            width: 100vw;
+            position: fixed;
+        }
+
+        /* header */
+        .header {
+            height: 15%;
+            width: 100%;
+            background-color: rgb(255, 200, 127);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .header-one {
+            height: 50%;
+            width: 60%;
+            background-color: blanchedalmond;
+        }
+      h1{
+        text-align: center;
+        margin-bottom: 12%;
+      }
+
+        /* header finish */
+        /* first row */
+        .row-one {
+            height: 85%;
+            width: 100;
+            background-color: tomato;
+            display: flex;
+            flex-direction: row;
+        }
+
+        .left-box {
+            height: 100%;
+            width: 20%;
+            background-color:#4ac55f;
+        }
+
+        .right-box {
+            height: 100%;
+            width: 80%;
+            background-color: rgb(255, 253, 149);
+            display: flex;
+            flex-direction: column;
+        }
+
+        .card-row-one {
+            height: 48%;
+            width: 100%;
+            background-color:#ffec8c;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+
+        /* product card */
+        .card {
+            height: 90%;
+            width: 20%;
+            border-radius: 20px;
+            margin-top: 1%;
+        }
+
+        .one {
+           background: linear-gradient(rgb(255, 255, 255),rgb(255, 251, 165));
+        }
+
+        .two {
+            background: linear-gradient(rgb(255, 255, 255),rgb(255, 251, 165));
+        }
+
+        .three {
+            background: linear-gradient(rgb(255, 255, 255),rgb(255, 251, 165));
+        }
+
+        .four {
+            background: linear-gradient(rgb(255, 255, 255),rgb(255, 251, 165));
+        }
+
+        /* row two */
+        .card-row-two {
+            height: 48%;
+            width: 100%;
+            background-color:#ffec8c;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+
+        /* card-img */
+        .card-img {
+            height: 55%;
+            width: 75%;
+            margin-left: 10%;
+            margin-top: 5%;
+        }
+
+        .text {
+            font-size: 30px;
+            text-align: center;
+        }
+
+        .price {
+            font-size: 20px;
+            margin-top: 4%;
+
+        }
+
+        button {
+            background-color: green;
+            color: white;
+            border: none;
+            width: 25%;
+            height: 10%;
+            font-size: 25px;
+            margin-left: 70%;
+            margin-bottom: 20%;
+            border-radius: 12px;
+        }
+    </style>
 </head>
+
 <body>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2075.0436912149776!2d78.78651800840458!3d21.37323137862934!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd4fb0039f962a9%3A0x47557596fc0c16d3!2sPanchashil%20Buddha%20Vihar%2C%20Tishti%20(Khurd)!5e0!3m2!1sen!2sin!4v1758014853152!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></html>
+    <div class="main-container">
+        <div class="header">
+            <div class="header-one"><h1>oil product</h1></div>
+        </div>
+        <!-- main -->
+        <div class="row-one">
+            <!-- navigation -->
+            <div class="left-box">1navigation</div>
+            <!-- card -->
+            <div class="right-box">
+
+                <div class="card-row-one">
+
+                    <div class="card one"><img class="card-img"
+                            src="https://m.media-amazon.com/images/I/51GyUUKe-0L._UF1000,1000_QL80_.jpg" alt="">
+                        <div class="text">fortune oil packet</div>
+                        <div class="price">122</div><button>call</button>
+                    </div>
+                    <div class="card two"><img class="card-img"
+                            src="https://www.jiomart.com/images/product/original/rvw7rwchcn/spellfry-100-pure-kachi-ghani-mustard-oil-1-l-pack-of-4-pet-bottle-product-images-orvw7rwchcn-p594194043-0-202210011104.png?im=Resize=(1000,1000)"
+                            alt="">
+                        <div class="text">Sarso oil </div>
+                        <div class="price">122</div><button>call</button>
+                    </div>
+                    <div class="card three"><img class="card-img"
+                            src="https://cpimg.tistatic.com/08563288/b/4/5-Ltr-Soyabean-Oil.jpg" alt="">
+                        <div class="text">5 litre can</div>
+                        <div class="price">122</div><button>call</button>
+                    </div>
+                    <div class="card four"><img class="card-img"
+                            src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQc7E3bpAh6K2Q_8TTEEJ6z0i_7bZoVRotp6m6PB7kinCDIUrrtwizWF7BxCQ5C77b_O4F2eUORA7yfuaLbFmm1JL7b9C3t_Fakwb1cXasSdw8pircj3_VX"
+                            alt="">
+                        <div class="text"> 15 litre can</div>
+                        <div class="price">122</div><button>call</button>
+                    </div>
+                </div>
+                <br>
+                <div class="card-row-two">
+                    <div class="card one"><img class="card-img"
+                            src="https://m.media-amazon.com/images/I/51emC3x7UnL._UF1000,1000_QL80_.jpg" alt="">
+                        <div class="text">Almond Hair Oil</div>
+                        <div class="price">122</div><button>call</button>
+                    </div>
+                    <div class="card two"><img class="card-img"
+                            src="https://media6.ppl-media.com//tr:h-235,w-235,c-at_max,dpr-2/static/img/product/392547/parachute-advansed-aloe-vera-enriched-coconut-hair-oil-gold-5x-aloe-vera-with-coconut-oil-makes-hair-sooperr-soft-250ml_7_display_1674211336_22527f81.jpg"
+                            alt="">
+                        <div class="text">parashoot hair oil</div>
+                        <div class="price">122</div><button>call</button>
+                    </div>
+                    <div class="card three"><img class="card-img"
+                            src="https://m.media-amazon.com/images/I/71sctrfIIwL.jpg" alt="">
+                        <div class="text">Kesh king oil</div>
+                        <div class="price">122</div><button>call</button>
+                    </div>
+                    <div class="card four"><img class="card-img"
+                            src="https://m.media-amazon.com/images/I/71X3ryvPdQL._UF1000,1000_QL80_.jpg" alt="">
+                        <div class="text">Navratna hair oil</div>
+                        <div class="price">122</div><button>call</button>
+                    </div>
+                </div>
+                <!-- child -->
+            </div>
+
+        </div>
+
+    </div>
+</body>
+
+</html>
