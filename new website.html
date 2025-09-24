@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grocery website</title>
+    <style>
+        .body {
+            margin: 0;
+            padding: 0;
+        }
+
+        .main-container {
+            height: 100vh;
+            width: 100vw;
+        }
+
+        /* pages */
+        .page {
+            height: 100%;
+            width: 100%;
+        }
+
+        /* page-one */
+        .one {
+            background-color: aqua;
+            display: flex;
+            flex-direction: row;
+        }
+
+        /* left-gap */
+        .gap-left-pageone {
+            height: 100%;
+            width: 10%;
+            background-color: rgb(255, 255, 255);
+        }
+
+        /* main-center */
+        .center {
+            height: 100%;
+            width: 80%;
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* centerk child */
+        /*first header */
+        .header {
+            height: 10%;
+            width: 100%;
+            background-color: rgb(84, 0, 240);
+        }
+
+        /*first main */
+        .main {
+            height: 50%;
+            width: 100%;
+            background-color: wheat;
+        }
+
+        /* first-footer */
+        .footer {
+            height: 40%;
+            width: 100%;
+            background-color: cadetblue;
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* footer-child */
+        /* footer text */
+        .footer-text {
+            height: 20%;
+            width: 100%;
+            background-color: blue;
+        }
+
+        /* footer img */
+        .footer-img {
+            height: 80%;
+            width: 100%;
+            background-color: tomato;
+            display: flex;
+            flex-direction: row;
+
+            justify-content: center;
+            justify-content: space-evenly;
+
+
+
+        }
+
+        /* footer img child */
+        .img {
+            height: 70%;
+            width: 15%;
+            margin-top: 2%;
+            border-radius: 100%;
+        }
+
+        .boxone {
+            background-color: aqua;
+        }
+
+        .boxtwo {
+            background-color: rgb(0, 255, 21);
+        }
+
+        .boxthree {
+            background-color: rgb(7, 92, 14);
+        }
+
+        .boxfour {
+            background-color: rgb(255, 0, 72);
+        }
+
+        .boxfive {
+            background-color: rgb(38, 0, 255);
+        }
+
+        .boxsix {
+            background-color: rgb(255, 0, 119);
+        }
+
+        /* right-gap */
+        .gap-right-pageone {
+            height: 100%;
+            width: 10%;
+            background-color: rgb(255, 255, 255);
+        }
+
+
+        /* page-one finish */
+        /* page-one-finish */
+
+        /* page-two */
+        .two {
+            background-color: rgb(255, 166, 0);
+            display: flex;
+            flex-direction: row;    
+        }
+        .second-center{
+            height: 100%;
+            width: 80%;
+            background-color: aqua;
+            display:flex ;
+            flex-direction: column;
+        }
+        /* second-child */
+        .second-header{
+            height: 30%;
+            width: 100%;
+            background-color:rebeccapurple ;
+        }
+        /* second-header img child */
+        .longimg{
+            width: 100%;
+            height: 100%;
+
+        }
+        /* text */
+        .second-text{
+            height: 10%;
+            width: 100%;
+            background-color: yellow;
+        }
+        .category-text{
+            text-align: center;
+            font-family: cursive;
+            font-size: 30px;
+        }
+/* card page two */
+        .second-main{
+            height: 60%;
+            width: 100%;
+            background-color: brown;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        /* child */
+        .second-main-rowone{
+            height: 40%;
+            width: 100%;
+            background-color: blue;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        /* second-main-rowone-child */
+        .product-cards{
+            height: 90%;
+            width: 18%;
+            
+        }
+        .cardone{
+            background-color: rgb(167, 167, 215);
+
+        }
+        .cardtwo{
+            background-color: rgb(255, 0, 0);
+
+        }
+        .cardthree{
+            background-color: rgb(255, 247, 0);
+
+        }
+        .cardfour{
+            background-color: rgb(255, 0, 221);
+
+        }
+      
+        .second-main-rowtwo{
+            height: 40%;
+            width: 100%;
+            background-color: rgb(208, 255, 0);
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+
+
+        /* page-two-finisg */
+        /* page-two-finish */
+        /* page-three */
+        .three {
+            background-color: turquoise;
+        }
+
+        /* page-four */
+        .four {
+            background-color: rgb(160, 95, 156);
+        }
+
+        /* page-five */
+        .five {
+            background-color: burlywood;
+        }
+
+        /* page-six */
+        .six {
+            background-color: thistle;
+        }
+
+        /* page-seven */
+        .seven {
+            background-color: tan;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- main-container -->
+    <div class="main-container">
+        <!-- page-one -->
+        <div class="page one">
+            <!-- left-gap -->
+            <div class="gap-left-pageone"></div>
+            <!-- main-center -->
+            <div class="center">
+                <!-- header -->
+                <div class="header"></div>
+                <!-- main -->
+                <div class="main"></div>
+                <!-- footer -->
+                <div class="footer">
+                    <!-- first-footer-text -->
+                    <div class="footer-text"></div>
+                    <!-- first-footer-img -->
+                    <div class="footer-img">
+                        <div class="img boxone"></div>
+                        <div class="img boxtwo"></div>
+                        <div class="img boxthree"></div>
+                        <div class="img boxfour"></div>
+                        <div class="img boxfive"></div>
+                        <div class="img boxsix"></div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- right-gap -->
+            <div class=" gap-right-pageone"></div>
+        </div>
+        <!-- page-two -->
+        <div class="page two">
+            <!-- gap -->
+            <div class="gap-left-pageone"></div>
+            <!--  second  main -->
+            <div class="second-center">
+                <!-- long img -->
+                <div class="second-header"><img class="longimg"     src="https://d1sl07a7h3d3fr.cloudfront.net/admin/store/7d26cbfb-6d99-46d8-9406-a5a0c43c5854-pothysnatchiyar.jpeg" alt=""></div>
+                <!-- text -->
+                <div class="second-text"><div class="category-text"> Browse all category</div>  </div>
+                 <!-- product card -->
+                <div class="second-main">
+                    <!-- second-main child -->
+                    <div class="second-main-rowone">
+                        <div class="product-cards cardone"></div>
+                        <div class="product-cards cardtwo"></div>
+                        <div class="product-cards cardthree"></div>
+                        <div class="product-cards cardfour"></div>
+                     
+                    </div>
+                    <br>
+                    <div class="second-main-rowtwo">
+                        <div class="product-cards cardone"></div>
+                        <div class="product-cards cardtwo"></div>
+                        <div class="product-cards cardthree"></div>
+                        <div class="product-cards cardfour"></div>
+                       
+                    </div>
+                </div>
+                <!--  -->
+            </div>
+            <!-- gap -->
+            <div class="gap-right-pageone"></div>
+
+        </div>
+
+        <!-- page three -->
+        <div class="page three"></div>
+        <div class="page four"></div>
+        <div class="page five"></div>
+        <div class="page six"></div>
+        <div class="page seven"></div>
+    </div>
+</body>
+
+</html>
