@@ -7,13 +7,14 @@
     <title>grocery website</title>
     <style>
         .body {
-            margin: 0;
-            padding: 0;
+            margin: 0%;
+            padding: 0%;
         }
 
         .main-container {
             height: 100vh;
             width: 100vw;
+
         }
 
         /* pages */
@@ -45,14 +46,41 @@
         /* centerk child */
         /*first header */
         .header {
-            height: 10%;
+            height: 15%;
             width: 100%;
-            background-color: rgb(84, 0, 240);
+            background-color: rgb(149, 92, 255);
+            display: flex;
+            flex-direction: row;
         }
+
+        .shop-name {
+            height: 100%;
+            width: 50%;
+            background: linear-gradient(#1f0373);
+            display: flex;
+            font-size: 25px;
+            align-items: center;
+            color: white;
+
+
+        }
+
+        .name-bar {
+            height: 100%;
+            width: 50%;
+            background: linear-gradient(#1f0373);
+            display: flex;
+            flex-direction: row;
+            color: white;
+            gap: 60px;
+            align-items: center;
+            justify-content: center;
+        }
+
 
         /*first main */
         .main {
-            height: 70%;
+            height: 60%;
             width: 100%;
             background-color: wheat;
             background-image: url(https://pandansocial.com/wp-content/uploads/2021/09/Is-The-Grocery-Store-Industry-Ripe-for-Digital-Innovation_.jpg);
@@ -61,9 +89,75 @@
 
         }
 
+        .main-name-bar {
+
+            height: 10%;
+            width: 50%;
+            background: linear-gradient(rgb(117, 184, 117), white);
+            display: flex;
+            flex-direction: row;
+            gap: 60px;
+            margin-left: 50%;
+            align-items: center;
+            justify-content: center;
+            display: none;
+        }
+/* main-small box */
+        .shop-black-opacity {
+            height: 100%;
+            width: 100%;
+            background-color: rgba(0, 0, 0, 0.356);
+            text-align: center;
+            font-size: 30px;
+        }
+        /*  */
+.ssdd{
+    height: 20%;
+    width: 15%;
+   
+}
+        .shop-text {
+            height: 40%;
+            width: 35%;
+            background-color: rgba(255, 255, 255, 0.556);
+            margin-left: 35%;
+
+
+
+        }
+
+        /* header-button */
+        .header-buttonn {
+            border-radius: 12px;
+            height: 80%;
+            width: 10%;
+            text-align: center;
+            font-size: 20px;
+            background-color: rgb(255, 204, 0);
+
+        }
+
+        .header-button {
+            border-radius: 12px;
+            height: 80%;
+            width: 10%;
+            text-align: center;
+            font-size: 20px;
+            opacity: 100%;
+
+        }
+
+        .header-button:hover {
+            opacity: 100%;
+            background-color: rgb(255, 196, 0);
+        }
+
+        /* header-button-text */
+
+
         /* first-footer */
         .footer {
-            height: 30%;
+            height: 35%;
             width: 100%;
             background-color: cadetblue;
             display: flex;
@@ -112,6 +206,7 @@
 
         .boxone {
             background-color: rgb(255, 255, 255);
+
         }
 
         .boxtwo {
@@ -514,7 +609,7 @@
         .row-one {
             height: 100%;
             width: 100;
-            background-color: tomato;
+            background-color: rgb(255, 255, 255);
             display: flex;
             flex-direction: row;
         }
@@ -525,7 +620,7 @@
         .right-box {
             height: 100%;
             width: 100%;
-            background-color: #ffffff;
+            background-color: #ddaa63dd;
             display: flex;
             flex-direction: column;
         }
@@ -686,31 +781,31 @@
 
         /* card-one */
         .five-card-one {
-            height: 80%;
+            height: 70%;
             width: 18%;
             background: linear-gradient(rgb(255, 255, 255), rgb(85, 195, 79));
         }
 
         .five-card-two {
-            height: 80%;
+            height: 70%;
             width: 18%;
             background: linear-gradient(rgb(255, 255, 255), rgb(82, 187, 196));
         }
 
         .five-card-three {
-            height: 80%;
+            height: 70%;
             width: 18%;
             background: linear-gradient(rgb(255, 255, 255), rgb(201, 134, 168));
         }
 
         .five-card-four {
-            height: 80%;
+            height: 70%;
             width: 18%;
             background: linear-gradient(rgb(255, 255, 255), rgb(252, 53, 3));
         }
 
         .five-card-five {
-            height: 80%;
+            height: 70%;
             width: 18%;
             background: linear-gradient(rgb(255, 255, 255), rgb(18, 3, 112));
         }
@@ -724,10 +819,10 @@
 
         /* five img */
         .five-img {
-            height: 75%;
-            width: 90%;
+            height: 100%;
+            width: 100%;
             align-items: center;
-            margin-left: 10px;
+
         }
 
         /* page five finish */
@@ -828,8 +923,8 @@
         /* .contact-page */
 
         .contact-page {
-            width: 100vw;
-            height: 100vh;
+            width: 100%;
+            height: 50%;
             background-color: white;
             display: flex;
             flex-direction: column;
@@ -941,6 +1036,10 @@
 
 
         @media (min-width:300px) and (max-width:430px) {
+            body {
+                margin: 0%;
+                padding: 0%;
+            }
 
             .main-container {
                 height: 100vh;
@@ -962,7 +1061,7 @@
             /* left-gap */
             .gap-left-pageone {
                 height: 100%;
-                width: 10%;
+                width: 5%;
                 background-color: rgb(255, 255, 255);
                 display: none;
             }
@@ -979,15 +1078,57 @@
             /*first header */
             .header {
                 height: 10%;
-                width: 100%;
-                background-color: rgb(84, 0, 240);
+                width: 10%;
+                background-color: rgb(149, 92, 255);
+                display: flex;
+                flex-direction: row;
+                display: none;
             }
+
+            .shop-name {
+                height: 100%;
+                width: 100%;
+                background: linear-gradient(rgb(205, 205, 223), white);
+                display: flex;
+                font-size: 30px;
+                align-items: center;
+
+
+
+            }
+
+            .name-bar {
+                height: 100%;
+                width: 20%;
+
+                display: flex;
+                flex-direction: row;
+                gap: 10px;
+                align-items: center;
+                justify-content: center;
+                display: none;
+            }
+
+
 
             /*first main */
             .main {
                 height: 70%;
                 width: 100%;
                 background-color: wheat;
+            }
+
+            .main-name-bar {
+
+                height: 6%;
+                width: 100%;
+                background-color: rgb(255, 255, 255);
+                display: flex;
+                flex-direction: row;
+                gap: 45px;
+                margin-left: 0%;
+                align-items: center;
+                justify-content: center;
             }
 
             /* first-footer */
@@ -1062,6 +1203,14 @@
                 background-color: rgb(255, 0, 119);
                 display: none;
             }
+
+            .gap-right-pageone {
+                height: 100%;
+                width: 5%;
+                background-color: rgb(255, 255, 255);
+                display: none;
+            }
+
 
 
 
@@ -1421,7 +1570,7 @@
             .header {
                 height: 7%;
                 width: 100%;
-                background-color: rgb(255, 200, 127);
+                background-color: rgb(255, 255, 255);
                 display: flex;
                 align-items: center;
 
@@ -1470,7 +1619,7 @@
             .card-row-one {
                 height: 100%;
                 width: 100%;
-                background-color: #ffffff;
+                background-color: #dac5c5;
                 display: flex;
                 flex-direction: row;
 
@@ -1480,9 +1629,8 @@
 
             /* product card */
             .card {
-                height: 75%;
+                height: 60%;
                 width: 28%;
-
                 margin-top: 1%;
                 display: flex;
                 flex-direction: column;
@@ -1509,14 +1657,14 @@
             .image {
                 height: 80%;
                 width: 100%;
-                background-color: rgb(255, 191, 191);
+                background-color: rgb(255, 255, 255);
 
             }
 
             .image-text {
                 height: 20%;
                 width: 100%;
-                background-color: #e0d6d6;
+                background-color: #ffffff;
 
             }
 
@@ -1524,14 +1672,24 @@
             .card-row-two {
                 height: 100%;
                 width: 100%;
-                background-color: #ffffff;
+                background-color: #dac5c5;
                 display: flex;
                 flex-direction: row;
 
             }
 
+            .card-row-three {
+                height: 100%;
+                width: 100%;
+                background-color: #dac5c5;
+                display: flex;
+                flex-direction: row;
+
+            }
+
+
             .cards {
-                height: 80%;
+                height: 60%;
                 width: 15%;
 
                 margin-top: 1%;
@@ -1607,7 +1765,7 @@
             .five-main-card {
                 height: 60%;
                 width: 100%;
-                background-color: teal;
+                background-color: rgb(186, 220, 220);
                 display: flex;
                 flex-direction: row;
                 align-items: center;
@@ -1618,19 +1776,19 @@
 
             /* card-one */
             .five-card-one {
-                height: 80%;
+                height: 70%;
                 width: 30%;
                 background-color: rgb(130, 238, 134);
             }
 
             .five-card-two {
-                height: 80%;
+                height: 70%;
                 width: 30%;
                 background-color: rgb(173, 130, 238);
             }
 
             .five-card-three {
-                height: 80%;
+                height: 70%;
                 width: 30%;
                 background-color: rgb(238, 130, 130);
             }
@@ -1873,6 +2031,37 @@
                 background-color: white;
             }
         }
+
+        .last-footer {
+            height: 10%;
+            width: 100%;
+            background-color: yellow;
+
+            display: flex;
+            flex-direction: column;
+        }
+
+        .footer-last-header {
+            height: 40%;
+            width: 100%;
+            background-color: #6fd32d;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10%;
+            font-size: 25px;
+        }
+
+        .footer-last-main {
+            height: 60%;
+            width: 100%;
+            background-color: #d32d2d;
+            display: flex;
+            font-size: 25px;
+            align-items: center;
+            justify-content: center;
+
+        }
     </style>
 </head>
 
@@ -1886,9 +2075,32 @@
             <!-- main-center -->
             <div class="center">
                 <!-- header -->
-                <div class="header"></div>
+                <div class="header">
+                    <div class="shop-name">
+                        <div class="s-name">Pathan Kirana Store</div>
+                    </div>
+                    <div class="name-bar">
+                        <div class="header-buttonn">Home</div>
+                        <div class="header-button">About</div>
+                        <div class="header-button">Product</div>
+                        <div class="header-button">Contact</div>
+                    </div>
+                </div>
                 <!-- main -->
-                <div class="main"></div>
+                <div class="main">
+                    <div class="main-name-bar">
+                        <div>Home</div>
+                        <div>About</div>
+                        <div>Product </div>
+                        <div>Contact</div>
+                    </div>
+                    <div class="shop-black-opacity"><br><br><br><br><br><br><br>
+                        <div class="shop-text">Pathan Kirana Store <br>fgdfhgfhfghgjghjhkghjkjhkh <br><br><button
+                                class="ssdd">Product</button><button class="ssdd">Product</button><button
+                                class="ssdd">Product</button></div>
+                    </div>
+
+                </div>
                 <!-- footer -->
                 <div class="footer">
                     <!-- first-footer-text -->
@@ -2284,11 +2496,11 @@
                             <div class="visit-textt">Visit our home shop foer a
                                 semless,shopping experince.Find everything <br>
                                 you need ,form groceries to home essential ,delivered quickly and <br> conventialy right
-                                doorstep.Quality products .exceptional service. <br><mark><br>Fantastic Service and
-                                    fastly
-                                    Delivery ! Hight <br>
-                                    quality product make shopping homea breeze . <br>
-                                    Highly recommened this home shop !</mark></div>
+                                doorstep.Quality products .exceptional service. <br><br>Fantastic Service and
+                                fastly
+                                Delivery ! Hight <br>
+                                quality product make shopping homea breeze . <br>
+                                Highly recommened this home shop !</div>
                         </div>
                     </div>
                     <div class="visit-two"><button class="visit-button">VISIT
@@ -2341,8 +2553,17 @@
             </div>
             <br>
         </div>
+        <div class="last-footer">
+            <div class="footer-last-header">
+                <div>Home</div>
+                <div>About</div>
+                <div>Product</div>
+                <div>Contact</div>
+            </div>
+            <div class="footer-last-main"> Design & Developed By : <a href="">Arsalan Khan Pathan</a></div>
+        </div>
     </div>
-    <div class="last-footer"></div>
+
     </div>
 
 </body>
